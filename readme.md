@@ -1,4 +1,11 @@
-using python 3.12.1
+pyvenv info:
+```
+home = /Library/Frameworks/Python.framework/Versions/3.12/bin
+include-system-site-packages = false
+version = 3.12.1
+executable = /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+command = /usr/local/bin/python3 -m venv /Users/e/Documents/CS316/labs
+```
 
 libraries (cant remember if i used pip/pipx/uv):
 ```
