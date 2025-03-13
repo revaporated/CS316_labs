@@ -9,5 +9,10 @@ g = lambda u: u[0] + u[1]**2
 result = g(f(w))
 result.backward()
 
-print('result is ', result)
-print('gradient is ', w.grad)
+print('result is', result)
+print('gradient is', w.grad)
+
+# expected
+
+# result is tensor(25., grad_fn=<AddBackward0>)
+# gradient is tensor([ 6., 32.])

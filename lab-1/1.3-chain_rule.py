@@ -8,5 +8,10 @@ g = lambda u: torch.sqrt(u)
 result = g(f(w))
 result.backward()
 
-print('result is ', result)
-print('gradient is ', w.grad)
+print('result is', result)
+print('gradient is', w.grad)
+
+# expected
+#
+# result is tensor([1.], grad_fn=<SqrtBackward0>)
+# gradient is tensor([1.])
